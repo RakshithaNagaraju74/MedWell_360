@@ -27,7 +27,7 @@ const NutritionGuide = ({ onBackClick }) => {
     const [query, setQuery] = useState(''); // State for the user's input query
     const [messages, setMessages] = useState([]); // Stores chat history with Groq
 
-    const groqApiKey = "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";
+    const groqApiKey = "";
     const scrollRef = useRef(null); // Ref for scrolling to bottom of messages
 
     // Scroll to the bottom of the messages container on new message

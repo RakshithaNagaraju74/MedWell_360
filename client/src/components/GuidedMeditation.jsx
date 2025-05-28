@@ -134,7 +134,7 @@ const GuidedMeditation = ({ onBackClick }) => {
     try {
       // --- Groq API Call ---
       // Get Groq API Key from environment variable
-      const groqApiKey = "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";
+      const groqApiKey = "";
 
       if (!groqApiKey) {
         throw new Error("Groq API Key is not configured. Please set REACT_APP_GROQ_API_KEY in your .env.local file.");
