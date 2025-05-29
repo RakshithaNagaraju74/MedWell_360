@@ -55,6 +55,7 @@ Prerequisites
 Installation
 # Clone the repo
 git clone https://github.com/yourusername/medcare.git
+
 cd medcare
 
 # Install backend dependencies
@@ -70,16 +71,20 @@ npm run dev
 
 # Install frontend dependencies
 cd ../client
+
 npm install
 
 # Start frontend
 npm run dev
 
 Environment Variables (Frontend)
+
 Create .env in /client with:
 
 VITE_FIREBASE_API_KEY=your_key
+
 VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+
 VITE_FIREBASE_PROJECT_ID=your_project_id
 
 📸 Screenshots
